@@ -6369,15 +6369,11 @@ body {
     position: relative;
     top: 0.4em; }
   body nav ul a {
-    transition: background-color .3s;
-    font-size: 1rem;
     color: #909090;
     display: block;
-    padding: 0 15px;
-    cursor: pointer; }
+    padding: 0 15px; }
   body nav .nav-wrapper {
     position: relative;
-    height: 100%;
     background-color: #fff; }
 
 /*# sourceMappingURL=main.css.map */
