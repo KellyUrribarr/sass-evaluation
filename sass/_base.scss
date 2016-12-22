@@ -1,7 +1,32 @@
 body {
 	width: $ancho_pagina;
 	font-family: $tipo_fuente;
-	font-size: 1em;
-	background-color: $fondo_negro;
-	color: $color_texto;
+	background: $fondo_blanco;
+	color: $color_titulo;
+
+	.logo{
+		font-size: 3em;
+		color: $color_titulo;
+		position :relative;
+		top: 0.4em;
+
+	}
+
+		nav ul a {
+	    transition: background-color .3s;
+	    font-size: 1rem;
+	    color: $color_titulo;
+	    display: block;
+	    padding: 0 15px;
+	    cursor: pointer;
+	}
+
+		nav .nav-wrapper {
+	    position: relative;
+	    height: 100%;
+	    background-color: #fff;
+	}
+
 }
+
+
