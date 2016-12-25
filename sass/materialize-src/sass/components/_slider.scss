@@ -14,7 +14,7 @@
     bottom: 0;
 
     ul.slides {
-      height: 100%;
+      height: 400px;
     }
 
     ul.indicators {
@@ -26,7 +26,7 @@
   .slides {
     background-color: $slider-bg-color;
     margin: 0;
-    height: 400px;
+    height: 85% !important;
 
     li {
       opacity: 0;
@@ -70,6 +70,8 @@
     right: 0;
     bottom: 0;
     margin: 0;
+    margin: 14%;
+    z-index: 8;
 
     .indicator-item {
       display: inline-block;
