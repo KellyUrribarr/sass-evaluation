@@ -1,7 +1,7 @@
 body {
 	width: $ancho_pagina;
 	font-family: $tipo_fuente;
-	background: $fondo_blanco;
+	background: $color_blanco;
 	color: $color_titulo;
 
 	.logo {
@@ -12,21 +12,35 @@ body {
 
 	}
 
-		nav ul a {
-	    color: $color_titulo;
-	    display: block;
-	    padding: 0 15px;
+	nav ul a {
+		color: $color_titulo;
+		display: block;
+		padding: 0 15px;
 	}
 
-		nav .nav-wrapper {
-	    position: relative;
-	    background-color: #fff;
+	nav .nav-wrapper {
+		position: relative;
+		background-color: #fff;
 	}
 
-}
+	.opacit-y{
+		color: $color_blanco;
+		background-color: $color_rojo;
+		position: absolute;
+		z-index: 8;
+		padding: $paddin_g;
+	}
 
-.pa{
-	margin-top:8%;
-}
+	.pa{
+		margin-top:8%;
+	}
 
+	.opacity-fondo{
+		background-color: $fondo_negro;
+		opacity: $opacity_color;
+		padding: $paddin_g;
+	}
+
+
+}
 
