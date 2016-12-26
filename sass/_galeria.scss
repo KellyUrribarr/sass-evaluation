@@ -7,7 +7,7 @@ body{
 		z-index:8;
 	}
 
-	.hovereffect {
+	.foto_uno {
 		width: 100%;
 		height: 218px;
 		position: relative;
@@ -58,7 +58,45 @@ body{
 		padding: 1%;
 	}
 
-		
+
 }	
+
+//vale desde aqui
+.hovereffect {
+	width: 100%;
+	height: 100%;
+	float: left;
+	position: relative;
+
+	img{
+		width:100%;
+	}
+
+	.overlay {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		left: 0;
+		bottom:0;
+
+		.titles{
+			color: $color_blanco;
+			text-align: left;
+			position: absolute;
+			bottom: 0%;
+			width: 100%;
+			padding-left:15px;
+			background: rgba(0, 0, 0, 0.6);
+
+		}
+	}
+}
+//vale desde aqui
+
+
+
+
+
+
 
 
