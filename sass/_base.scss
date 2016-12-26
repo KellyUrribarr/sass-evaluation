@@ -11,36 +11,6 @@ body {
 		top: 0.4em;
 
 	}
-
-	nav ul a {
-		color: $color_titulo;
-		display: block;
-		padding: 0 15px;
-	}
-
-	nav .nav-wrapper {
-		position: relative;
-		background-color: #fff;
-	}
-
-	.opacit-y{
-		color: $color_blanco;
-		background-color: $color_rojo;
-		position: absolute;
-		z-index: 8;
-		padding: $paddin_g;
-	}
-
-	.pa{
-		margin-top:8%;
-	}
-
-	.opacity-fondo{
-		background-color: $fondo_negro;
-		opacity: $opacity_color;
-		padding: $paddin_g;
-	}
-
-
 }
+
 

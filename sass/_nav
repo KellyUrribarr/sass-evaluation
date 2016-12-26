@@ -1,0 +1,10 @@
+nav ul a {
+		color: $color_titulo;
+		display: block;
+		padding: 0 15px;
+	}
+
+	nav .nav-wrapper {
+		position: relative;
+		background-color: #fff;
+	}

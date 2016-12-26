@@ -1,0 +1,66 @@
+body{
+	.rect_rojo{
+		position: absolute;
+		background-color: $color_rojo;
+		padding: $paddin_g;
+		color:$color_blanco;
+		z-index:8;
+	}
+
+	.hovereffect {
+		width: 100%;
+		height: 100%;
+		position: relative;
+
+		img {
+			width:100%;
+		}
+
+		.overlay {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 7.4em;
+			left: 0;
+		}
+
+		h2 {
+			color: #fff;
+			text-align: center;
+			position: relative;
+			top: 2.5em;
+			font-size: 17px;
+			padding: 10px;
+			background: rgba(0, 0, 0, 0.6);
+		}
+	}
+
+	.effect {
+		width: 100%;
+		height: 100%;
+		position: relative;
+
+		img {
+			width:100%;
+		}
+
+		.overlay {
+			width: 100%;
+			height: 100%;
+			position: absolute;
+			top: 7.4em;
+			left: 0;
+		}
+
+		h2 {
+			color: #fff;
+			text-align: center;
+			position: relative;
+			top: -4.2em;
+			font-size: 17px;
+			padding: 10px;
+			background: rgba(0, 0, 0, 0.6);
+		}
+	}
+}	
+
