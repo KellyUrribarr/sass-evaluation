@@ -108,27 +108,14 @@ nav {
       }
     }
     a {
-      transition: background-color .3s;
       font-size: $navbar-font-size;
       color: $navbar-font-color;
       display: block;
       padding: 0 15px;
       cursor: pointer;
 
-      &.btn, &.btn-large, &.btn-flat, &.btn-floating {
-        margin-top: -2px;
-        margin-left: 15px;
-        margin-right: 15px;
-      }
-
-      &:hover {
-        background-color: rgba(0,0,0,.1);
-      }
     }
 
-    &.left {
-      float: left;
-    }
   }
 
   // Navbar Search Form
