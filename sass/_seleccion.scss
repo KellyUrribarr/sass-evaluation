@@ -1,0 +1,24 @@
+body{
+	h6{
+		text-transform: uppercase;
+	}
+
+	hr{
+		color: $color_rojo;
+		background-color: $color_rojo;
+		height: 3px;
+	}
+
+	div .columnas img{
+		width:100%;
+		padding-top:8%;
+	}
+
+	div .columnas .titulos{
+		color: $color_rojo;
+		font-size: $tamano_tipografia;
+	}
+
+	
+}	
+

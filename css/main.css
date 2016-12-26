@@ -6344,7 +6344,6 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 body {
   width: 100%;
   font-family: arial, sans-serif;
-  background: #fff;
   color: #909090; }
   body .logo {
     font-size: 3em;
@@ -6387,25 +6386,28 @@ body .hovereffect {
     font-size: 17px;
     padding: 10px;
     background: rgba(0, 0, 0, 0.6); }
-body .effect {
+body .effect h2, body .hoveffect h2 {
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: -4.2em;
+  font-size: 17px;
+  padding: 10px;
+  background: rgba(0, 0, 0, 0.6); }
+body .margin_fotos {
+  margin-top: 8%; }
+
+body h6 {
+  text-transform: uppercase; }
+body hr {
+  color: #D70202;
+  background-color: #D70202;
+  height: 3px; }
+body div .columnas img {
   width: 100%;
-  height: 100%;
-  position: relative; }
-  body .effect img {
-    width: 100%; }
-  body .effect .overlay {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 7.4em;
-    left: 0; }
-  body .effect h2 {
-    color: #fff;
-    text-align: center;
-    position: relative;
-    top: -4.2em;
-    font-size: 17px;
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.6); }
+  padding-top: 8%; }
+body div .columnas .titulos {
+  color: #D70202;
+  font-size: 1em; }
 
 /*# sourceMappingURL=main.css.map */
