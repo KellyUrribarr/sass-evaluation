@@ -6323,26 +6323,6 @@ body .rect_rojo {
   padding: 4px 38px;
   color: #fff;
   z-index: 8; }
-body .foto_uno {
-  width: 100%;
-  height: 218px;
-  position: relative;
-  background-image: url("../img/4.png"); }
-  body .foto_uno img {
-    width: 100%; }
-  body .foto_uno h2 {
-    margin-bottom: 0;
-    color: #ddd; }
-body .effect h2, body .hoveffect h2 {
-  color: #fff;
-  text-align: left;
-  position: relative;
-  top: -12.3em;
-  font-size: 13px;
-  padding: 10px;
-  background: rgba(0, 0, 0, 0.4); }
-body .margin_fotos {
-  margin-top: 8%; }
 body .fa-chevron-left {
   position: relative;
   top: -11.5em;
@@ -6357,6 +6337,9 @@ body .fa-chevron-right {
   color: #fff;
   background: #D70202;
   padding: 1%; }
+
+.margin_ {
+  margin-top: 7%; }
 
 .hovereffect {
   width: 100%;
@@ -6377,11 +6360,11 @@ body .fa-chevron-right {
       position: absolute;
       bottom: 0%;
       width: 100%;
-      padding-left: 15px;
+      padding: 0px 15px;
       background: rgba(0, 0, 0, 0.6); }
 
 body h6 {
-  text-transform: uppercase; }
+  font-size: 12px; }
 body hr {
   color: #D70202;
   background-color: #D70202;

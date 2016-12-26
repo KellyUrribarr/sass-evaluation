@@ -7,38 +7,6 @@ body{
 		z-index:8;
 	}
 
-	.foto_uno {
-		width: 100%;
-		height: 218px;
-		position: relative;
-		background-image: url("../img/4.png");
-
-		img {
-			width:100%;
-		}
-
-
-		h2 {
-			margin-bottom: 0;
-			color: #ddd;
-		}
-	}
-
-	.effect, .hoveffect {
-		h2 {
-			color: #fff;
-			text-align: left;
-			position: relative;
-			top: -12.3em;
-			font-size: 13px;
-			padding: 10px;
-			background: rgba(0, 0, 0, 0.4);
-		}
-	}
-
-	.margin_fotos{
-		margin-top:8%;
-	}
 
 	.fa-chevron-left{
 		position: relative;
@@ -62,6 +30,10 @@ body{
 }	
 
 //vale desde aqui
+.margin_{
+		margin-top:7%;
+	}
+
 .hovereffect {
 	width: 100%;
 	height: 100%;
@@ -85,7 +57,7 @@ body{
 			position: absolute;
 			bottom: 0%;
 			width: 100%;
-			padding-left:15px;
+			padding:0px 15px;
 			background: rgba(0, 0, 0, 0.6);
 
 		}
