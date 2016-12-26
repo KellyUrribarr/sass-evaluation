@@ -6403,11 +6403,17 @@ body hr {
   color: #D70202;
   background-color: #D70202;
   height: 3px; }
+body .linea {
+  color: #909090;
+  background-color: #909090;
+  height: 0.5px; }
 body div .columnas img {
   width: 100%;
   padding-top: 8%; }
 body div .columnas .titulos {
   color: #D70202;
   font-size: 1em; }
+body .mas {
+  display: block; }
 
 /*# sourceMappingURL=main.css.map */
