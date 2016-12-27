@@ -22,7 +22,7 @@ body{
     }
 
     .gris{
-        color: #909090;
+        color:$color_titulo;
     }
 
 
@@ -82,14 +82,14 @@ body{
     .fa-chevron-left{
         position: relative;
         color: #f5f5f5;
-        background: #D70202;
+        background: $color_titulo;
         padding: 1%;
     }
 
     .fa-chevron-right{
         position: relative;
         color: #f5f5f5;
-        background: #D70202;
+        background: $color_titulo;
         padding: 1%;
     }
 
