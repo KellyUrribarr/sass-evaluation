@@ -92,6 +92,18 @@ body{
         background: $color_titulo;
         padding: 1%;
     }
+
+    .fa-minus{
+        padding: 1%;
+        background-color: $color_rojo;
+        color: $color-blanco;
+    }
+    
+    .fa-plus{
+        padding: 1%;
+        background-color: $color_rojo;
+        color: $color-blanco;
+    }
     
     .mover{
         position: relative;
