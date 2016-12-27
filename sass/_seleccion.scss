@@ -1,65 +1,76 @@
 body{
-	h6{
-		font-size: 12px;
-	}
+    h6{
+        font-size: 12px;
+    }
 
-	div .columnas img{
-		width:100%;
-		padding-top:8%;
-	}
+    div .columnas img{
+        width:100%;
+        padding-top:8%;
+    }
 
-	.titles-cuerpo{
-		color: $color_rojo;
-		font-size: $tamano_tipografia;
-	}
+    .titles-cuerpo{
+        color: $color_rojo;
+        font-size: $tamano_tipografia;
+    }
 
-	.font-siz{
-		font-size:12px;
-	}
+    .font-siz{
+        font-size:12px;
+    }
 
-	.fa{
-		color:yellow;
-	}
+    .fa{
+        color:yellow;
+    }
 
-	.gris{
-		color: #909090;
-	}
+    .gris{
+        color: #909090;
+    }
 
 
-	.mas{
-		display: block;
-	}
+    .mas{
+        display: block;
+    }
 
-	span .listado{
-		display:block;
-	}
-	
-	.fa-facebook{
-		font-size: 30px;
-		width: 100%;
-		padding: $padding_redes;
-		background: #316db7;
-		color: $color_blanco;
+    span .listado{
+        display:block;
+    }
+    
+    .fa-facebook{
+        font-size: 30px;
+        width: 100%;
+        padding: $padding_redes;
+        background: #316db7;
+        color: $color_blanco;
 
-	}
+    }
 
-	.fa-twitter{
-		font-size: 30px;
-		width: 100%;
-		padding: $padding_redes;
-		background: #17a8dd;
-		color: $color_blanco;
+    .text-facebook{
+        font-size: 13px;
+        width: 100%;
+        padding: 14px 0px;
+        background: $fondo_text_redes;
+        color: $color_titulo;
+        text-align: center;
+        margin-top: 7%;
 
-	}
+    }
 
-	.fa-rss{
-		font-size: 30px;
-		width: 100%;
-		padding: $padding_redes;
-		background: #ff9204;
-		color: $color_blanco;
+    .fa-twitter{
+        font-size: 30px;
+        width: 100%;
+        padding: $padding_redes;
+        background: #17a8dd;
+        color: $color_blanco;
 
-	}
+    }
 
-}	
+    .fa-rss{
+        font-size: 30px;
+        width: 100%;
+        padding: $padding_redes;
+        background: #ff9204;
+        color: $color_blanco;
+
+    }
+
+}   
 
