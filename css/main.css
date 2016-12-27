@@ -6365,23 +6365,39 @@ body .fa-chevron-right {
 
 body h6 {
   font-size: 12px; }
-body hr {
-  color: #D70202;
-  background-color: #D70202;
-  height: 1px; }
-body .linea {
-  color: #909090;
-  background-color: #909090;
-  height: 0.5px; }
 body div .columnas img {
   width: 100%;
   padding-top: 8%; }
-body div .columnas .titulos {
+body .titles-cuerpo {
   color: #D70202;
   font-size: 1em; }
+body .font-siz {
+  font-size: 12px; }
+body .fa {
+  color: yellow; }
+body .gris {
+  color: #909090; }
 body .mas {
   display: block; }
 body span .listado {
   display: block; }
+body .fa-facebook {
+  font-size: 30px;
+  width: 100%;
+  padding: 19px 28px;
+  background: #316db7;
+  color: #fff; }
+body .fa-twitter {
+  font-size: 30px;
+  width: 100%;
+  padding: 19px 28px;
+  background: #17a8dd;
+  color: #fff; }
+body .fa-rss {
+  font-size: 30px;
+  width: 100%;
+  padding: 19px 28px;
+  background: #ff9204;
+  color: #fff; }
 
 /*# sourceMappingURL=main.css.map */

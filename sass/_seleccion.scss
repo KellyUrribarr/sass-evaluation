@@ -3,28 +3,28 @@ body{
 		font-size: 12px;
 	}
 
-	hr{
-		color: $color_rojo;
-		background-color: $color_rojo;
-		height: 1px;
-	}
-
-	.linea{
-		color: $color_titulo;
-		background-color: $color_titulo;
-		height: 0.5px;
-		
-	}
-
 	div .columnas img{
 		width:100%;
 		padding-top:8%;
 	}
 
-	div .columnas .titulos{
+	.titles-cuerpo{
 		color: $color_rojo;
 		font-size: $tamano_tipografia;
 	}
+
+	.font-siz{
+		font-size:12px;
+	}
+
+	.fa{
+		color:yellow;
+	}
+
+	.gris{
+		color: #909090;
+	}
+
 
 	.mas{
 		display: block;
@@ -34,5 +34,32 @@ body{
 		display:block;
 	}
 	
+	.fa-facebook{
+		font-size: 30px;
+		width: 100%;
+		padding: $padding_redes;
+		background: #316db7;
+		color: $color_blanco;
+
+	}
+
+	.fa-twitter{
+		font-size: 30px;
+		width: 100%;
+		padding: $padding_redes;
+		background: #17a8dd;
+		color: $color_blanco;
+
+	}
+
+	.fa-rss{
+		font-size: 30px;
+		width: 100%;
+		padding: $padding_redes;
+		background: #ff9204;
+		color: $color_blanco;
+
+	}
+
 }	
 
