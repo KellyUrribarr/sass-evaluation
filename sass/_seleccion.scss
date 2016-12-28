@@ -38,6 +38,11 @@ body{
     span .listado{
         display:block;
     }
+
+    b{
+        color: $color-terciario;  
+    }
+
     
     .text-facebook{
         font-size: $fon-size-general;
