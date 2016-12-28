@@ -2548,8 +2548,7 @@ input[type=range] + .thumb {
 
 .row {
   margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 20px; }
+  margin-right: auto; }
   .row:after {
     content: "";
     display: table;
@@ -4402,7 +4401,6 @@ textarea.materialize-textarea {
   display: block;
   line-height: inherit;
   background: #f9f9f9;
-  padding-left: 5px;
   border: none; }
   .input-field input[type=search]:focus {
     background-color: #fff;
@@ -6296,14 +6294,11 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 /* Color plomo claro */
 /* opacity*/
 /* padding*/
-body {
-  width: 100%;
-  color: #909090; }
-  body .logo {
-    font-size: 3em;
-    color: #909090;
-    position: relative;
-    top: 0.4em; }
+.logo {
+  font-size: 3em;
+  color: #909090;
+  position: relative;
+  top: 0.4em; }
 
 nav ul a {
   color: #909090;
@@ -6314,28 +6309,30 @@ nav .nav-wrapper {
   position: relative;
   background-color: #fff; }
 
-body .rect_rojo {
+.rect_rojo {
   position: absolute;
   background-color: #D70202;
   padding: 4px 38px;
   color: #fff;
   z-index: 8; }
-body .margin_ {
+
+.margin_ {
   margin-top: 8.5%; }
-body .hovereffect {
+
+.hovereffect {
   width: 100%;
   height: 100%;
   float: left;
   position: relative; }
-  body .hovereffect img {
+  .hovereffect img {
     width: 100%; }
-  body .hovereffect .overlay {
+  .hovereffect .overlay {
     width: 100%;
     height: 100%;
     position: absolute;
     left: 0;
     bottom: 0; }
-    body .hovereffect .overlay .titles {
+    .hovereffect .overlay .titles {
       color: #fff;
       text-align: left;
       position: absolute;
@@ -6422,7 +6419,6 @@ body .fa-plus {
   position: relative;
   float: right;
   top: 1.4em;
-  left: 0.3em;
   background: #D70202;
   padding: 5px;
   color: #fff;

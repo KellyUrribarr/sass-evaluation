@@ -1,10 +1,10 @@
-body{
+
 	.rect_rojo{
 		position: absolute;
 		background-color: $color-terciario;
 		padding: $paddin_g;
 		color:$color-primario;
-		z-index:8;
+		z-index:8
 	}
 
 	.margin_{
@@ -41,7 +41,6 @@ body{
 				}
 			}
 		}
-}
 
 
 
