@@ -6344,6 +6344,10 @@ body .hovereffect {
       padding: 0px 15px;
       background: rgba(0, 0, 0, 0.6); }
 
+body a,
+body h4 {
+  font-weight: 700;
+  text-transform: uppercase; }
 body h6 {
   font-size: 1em; }
 body div .columnas img {
@@ -6404,5 +6408,11 @@ body .fa-plus {
   padding: 1%;
   background-color: #D70202;
   color: #fff; }
+
+.linea {
+  color: #D70202;
+  background-color: #D70202;
+  height: 1px;
+  border: 0; }
 
 /*# sourceMappingURL=main.css.map */

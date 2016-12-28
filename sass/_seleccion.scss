@@ -1,4 +1,9 @@
 body{
+    a,
+    h4 {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
      h6{
         font-size:$tamano-tipografia;
      }
@@ -88,5 +93,12 @@ body{
         background-color: $color-terciario;
         color: $color-primario;
     }
-}   
+}  
+
+.linea{
+    color:$color-terciario;
+    background-color:$color-terciario;
+    height:1px;
+    border:0;
+} 
 
