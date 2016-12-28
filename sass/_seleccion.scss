@@ -24,6 +24,11 @@ body{
     .gris{
         color:$color-secundario;
     }
+    
+    p,
+    span{
+        font-size: $fon-size-general;
+    }
 
     span .listado{
         display:block;

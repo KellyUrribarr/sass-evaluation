@@ -6353,15 +6353,18 @@ body .titles-cuerpo {
   color: #D70202;
   font-size: 1em; }
 body .font-siz {
-  font-size: 12px; }
+  font-size: 13px; }
 body .fa {
   color: #F4D03F; }
 body .gris {
   color: #909090; }
+body p,
+body span {
+  font-size: 13px; }
 body span .listado {
   display: block; }
 body .text-facebook {
-  font-size: 12px;
+  font-size: 13px;
   width: 100%;
   padding: 14px 0px;
   background: #F4F3F3;
