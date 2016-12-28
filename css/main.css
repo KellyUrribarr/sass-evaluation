@@ -6357,7 +6357,7 @@ body .titles-cuerpo {
 body .font-siz {
   font-size: 13px; }
 body .fa {
-  color: #F4D03F; }
+  color: #D70202; }
 body .gris {
   color: #909090; }
 body p,
@@ -6372,7 +6372,7 @@ body .text-facebook {
   background: #F4F3F3;
   color: #909090;
   text-align: center;
-  margin-top: 7%; }
+  margin-top: 25%; }
 body .fa-facebook {
   font-size: 30px;
   width: 100%;
@@ -6428,5 +6428,12 @@ body .fa-plus {
 .espacio {
   position: relative;
   top: 10px; }
+
+.padd {
+  position: relative;
+  padding-top: 7%; }
+
+.fotos-respon img {
+  width: 100%; }
 
 /*# sourceMappingURL=main.css.map */

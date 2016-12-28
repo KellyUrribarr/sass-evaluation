@@ -47,7 +47,8 @@ body{
         background: $fondo_text_redes;
         color: $color-secundario;
         text-align: center;
-        margin-top: 7%;
+        margin-top: 25%;
+
     }
 
     .fa-facebook{
@@ -121,4 +122,13 @@ body{
 .espacio{
     position: relative;
     top:10px;
+}
+
+.padd{
+    position:relative;
+    padding-top:7%;
+}
+
+.fotos-respon img{
+    width:100%;
 }
