@@ -6344,7 +6344,8 @@ nav .nav-wrapper {
 body a,
 body h4 {
   font-weight: 700;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  color: #909090; }
 body h6 {
   font-size: 1em; }
 body div .columnas img {
@@ -6423,5 +6424,9 @@ body .fa-plus {
   padding: 5px;
   color: #fff;
   color: #fff; }
+
+.espacio {
+  position: relative;
+  top: 10px; }
 
 /*# sourceMappingURL=main.css.map */

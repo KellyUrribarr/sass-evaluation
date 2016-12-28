@@ -3,6 +3,7 @@ body{
     h4 {
         font-weight: 700;
         text-transform: uppercase;
+        color: $color-secundario;
     }
      h6{
         font-size:$tamano-tipografia;
@@ -115,4 +116,9 @@ body{
     color: #fff;
     color: $color-primario;
 
+}
+
+.espacio{
+    position: relative;
+    top:10px;
 }
