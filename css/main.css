@@ -6331,7 +6331,7 @@ nav .nav-wrapper {
     height: 100%;
     position: absolute;
     left: 0;
-    bottom: 0; }
+    bottom: 6px; }
     .hovereffect .overlay .titles {
       color: #fff;
       text-align: left;
