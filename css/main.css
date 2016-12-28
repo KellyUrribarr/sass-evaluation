@@ -6367,8 +6367,6 @@ body span {
   font-size: 13px; }
 body span .listado {
   display: block; }
-body b {
-  color: #D70202; }
 body .text-facebook {
   font-size: 13px;
   width: 100%;
@@ -6416,5 +6414,8 @@ body .fa-plus {
   background-color: #D70202;
   height: 1px;
   border: 0; }
+
+#logo {
+  margin-top: 13%; }
 
 /*# sourceMappingURL=main.css.map */
