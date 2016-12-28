@@ -6350,8 +6350,6 @@ body .rect_rojo {
       padding: 0px 15px;
       background: rgba(0, 0, 0, 0.6); }
 
-body h6 {
-  font-size: 12px; }
 body div .columnas img {
   width: 100%;
   padding-top: 8%; }
@@ -6361,27 +6359,25 @@ body .titles-cuerpo {
 body .font-siz {
   font-size: 12px; }
 body .fa {
-  color: yellow; }
+  color: #F4D03F; }
 body .gris {
   color: #909090; }
-body .mas {
-  display: block; }
 body span .listado {
   display: block; }
-body .fa-facebook {
-  font-size: 30px;
-  width: 100%;
-  padding: 19px 28px;
-  background: #316db7;
-  color: #fff; }
 body .text-facebook {
-  font-size: 13px;
+  font-size: 12px;
   width: 100%;
   padding: 14px 0px;
   background: #F4F3F3;
   color: #909090;
   text-align: center;
   margin-top: 7%; }
+body .fa-facebook {
+  font-size: 30px;
+  width: 100%;
+  padding: 19px 28px;
+  background: #316db7;
+  color: #fff; }
 body .fa-twitter {
   font-size: 30px;
   width: 100%;
@@ -6398,29 +6394,16 @@ body .iconos {
   position: relative;
   float: right;
   top: -2.5em; }
-body .fa-chevron-left {
-  position: relative;
-  color: #f5f5f5;
-  background: #909090;
-  padding: 1%; }
-body .fa-chevron-right {
-  position: relative;
-  color: #f5f5f5;
-  background: #909090;
-  padding: 1%; }
-body .fa-minus {
-  padding: 1%;
-  background-color: #D70202;
-  color: #fff; }
+  body .iconos .fa-chevron-left,
+  body .iconos .fa-chevron-right {
+    position: relative;
+    color: #fff;
+    background: #909090;
+    padding: 1%; }
+body .fa-minus,
 body .fa-plus {
   padding: 1%;
   background-color: #D70202;
   color: #fff; }
-body .mover {
-  position: relative;
-  top: -10.6em; }
-body .mover_ {
-  position: relative;
-  top: -2.9em; }
 
 /*# sourceMappingURL=main.css.map */

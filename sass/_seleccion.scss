@@ -1,7 +1,4 @@
 body{
-    h6{
-        font-size: 12px;
-    }
 
     div .columnas img{
         width:100%;
@@ -9,67 +6,58 @@ body{
     }
 
     .titles-cuerpo{
-        color: $color_rojo;
-        font-size: $tamano_tipografia;
+        color: $color-terciario;
+        font-size: $tamano-tipografia;
     }
 
     .font-siz{
-        font-size:12px;
+        font-size:$fon-size-general;
     }
 
     .fa{
-        color:yellow;
+        color:$color-star;
     }
 
     .gris{
-        color:$color_titulo;
-    }
-
-
-    .mas{
-        display: block;
+        color:$color-secundario;
     }
 
     span .listado{
         display:block;
     }
     
-    .fa-facebook{
-        font-size: 30px;
-        width: 100%;
-        padding: $padding_redes;
-        background: #316db7;
-        color: $color_blanco;
-
-    }
-
     .text-facebook{
-        font-size: 13px;
+        font-size: $fon-size-general;
         width: 100%;
         padding: 14px 0px;
         background: $fondo_text_redes;
         color: $color_titulo;
         text-align: center;
         margin-top: 7%;
+    }
 
+    .fa-facebook{
+        font-size: $fon-size-redes;
+        width: 100%;
+        padding: $padding_redes;
+        background: #316db7;
+        color: $color_blanco;
     }
 
     .fa-twitter{
-        font-size: 30px;
+        font-size: $fon-size-redes;
         width: 100%;
         padding: $padding_redes;
         background: #17a8dd;
-        color: $color_blanco;
-
+        color:$color-primario;
     }
 
     .fa-rss{
-        font-size: 30px;
+        font-size: $fon-size-redes;
         width: 100%;
         padding: $padding_redes;
         background: #ff9204;
-        color: $color_blanco;
-
+        color: $color-primario;
     }
 
     .iconos{
@@ -77,42 +65,20 @@ body{
         float: right;
         top: -2.5em;
 
+        .fa-chevron-left,
+        .fa-chevron-right {
+            position: relative;
+            color: $color-primario;
+            background: $color-secundario;
+            padding: 1%;
+        }
     }
 
-    .fa-chevron-left{
-        position: relative;
-        color: #f5f5f5;
-        background: $color_titulo;
+    .fa-minus,
+    .fa-plus {
         padding: 1%;
-    }
-
-    .fa-chevron-right{
-        position: relative;
-        color: #f5f5f5;
-        background: $color_titulo;
-        padding: 1%;
-    }
-
-    .fa-minus{
-        padding: 1%;
-        background-color: $color_rojo;
+        background-color: $color-terciario;
         color: $color-blanco;
-    }
-    
-    .fa-plus{
-        padding: 1%;
-        background-color: $color_rojo;
-        color: $color-blanco;
-    }
-    
-    .mover{
-        position: relative;
-        top: -10.6em;    
-    }
-
-    .mover_{
-        position: relative;
-        top: -2.9em;    
     }
 }   
 
