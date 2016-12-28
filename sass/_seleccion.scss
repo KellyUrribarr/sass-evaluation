@@ -1,4 +1,7 @@
 body{
+     h6{
+        font-size:$tamano-tipografia;
+     }
 
     div .columnas img{
         width:100%;
@@ -31,7 +34,7 @@ body{
         width: 100%;
         padding: 14px 0px;
         background: $fondo_text_redes;
-        color: $color_titulo;
+        color: $color-secundario;
         text-align: center;
         margin-top: 7%;
     }
@@ -41,7 +44,7 @@ body{
         width: 100%;
         padding: $padding_redes;
         background: #316db7;
-        color: $color_blanco;
+        color: $color-primario;
     }
 
     .fa-twitter{
@@ -78,7 +81,7 @@ body{
     .fa-plus {
         padding: 1%;
         background-color: $color-terciario;
-        color: $color-blanco;
+        color: $color-primario;
     }
 }   
 

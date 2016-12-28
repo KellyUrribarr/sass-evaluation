@@ -1,11 +1,10 @@
 body {
 	width: $ancho_pagina;
-	font-family: $tipo_fuente;
-	color: $color_titulo;
+	color: $color-secundario;
 
 	.logo {
 		font-size: 3em;
-		color: $color_titulo;
+		color: $color-secundario;
 		position :relative;
 		top: 0.4em;
 

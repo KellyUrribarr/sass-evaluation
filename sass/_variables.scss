@@ -1,15 +1,8 @@
 $ancho_pagina: 100%; /* 100% del ancho de la ventana del navegador */
-$tipo_fuente: arial, sans-serif;
 $color_titulo: #909090; /* Color plomo */
 $fondo_text_redes: #F4F3F3; /* Color plomo claro */
-$fondo_negro: #000; /* Color Gris Obscuro */
-$color_blanco: #fff; /* Color Blancoo*/
-$color_rojo: #D70202; /* Color Rojo*/
-$paddin_g: 4px 38px; /* padding*/
 $padding_redes: 19px 28px;
 $opacity_color: 0.6; /* opacity*/
-$tamano-tipografia: 1.0em;
-
 
 
 $color-primario: #fff; //color blanco
@@ -18,3 +11,5 @@ $color-terciario: #D70202; //color rojo
 $color-star: #F4D03F; //color amarillo
 $fon-size-redes: 30px; //tamaño de iconos de redes sociales
 $fon-size-general: 12px; //tamaño de iconos de redes sociales
+$tamano-tipografia: 1.0em; //tamaño de titulos
+$paddin_g: 4px 38px; /* padding*/
