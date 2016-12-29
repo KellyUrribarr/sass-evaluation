@@ -6333,11 +6333,11 @@ nav .nav-wrapper {
     left: 0;
     bottom: 6px; }
     .hovereffect .overlay .titles {
+      width: 100%;
       color: #fff;
       text-align: left;
       position: absolute;
       bottom: 0%;
-      width: 100%;
       padding: 0px 15px;
       background: rgba(0, 0, 0, 0.6); }
 

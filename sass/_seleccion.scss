@@ -8,7 +8,7 @@ body{
      }
 
     div .columnas img{
-        width:100%;
+        @include images;
         padding-top:8%;
     }
 
@@ -39,13 +39,7 @@ body{
     }
   
     .text-facebook{
-        font-size: $fon-size-general;
-        width: 100%;
-        padding: 14px 0px;
-        background: $fondo_text_redes;
-        color: $color-secundario;
-        text-align: center;
-        margin-top: 25%;
+        @include texto-facebook;
 
     }
 
@@ -103,5 +97,5 @@ body{
 }
 
 .fotos-respon img{
-    width:100%;
+    @include images;
 }

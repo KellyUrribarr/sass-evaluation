@@ -32,19 +32,37 @@
 
 @mixin linea-roja {
 	color:$color-terciario;
-    background-color:$color-terciario;
-    height:1px;
-    border:0;
+	background-color:$color-terciario;
+	height:1px;
+	border:0;
 }
 
 @mixin material-iconos {
 	position: relative;
-    float:right;
-    top: 1.4em;
-    background:$color-terciario;
-    padding: 5px;
-    color: #fff;
-    color: $color-primario;
+	float:right;
+	top: 1.4em;
+	background:$color-terciario;
+	padding: 5px;
+	color: #fff;
+	color: $color-primario;
+}
+
+@mixin texto-facebook {
+	font-size: $fon-size-general;
+	width: 100%;
+	padding: 14px 0px;
+	background: $fondo_text_redes;
+	color: $color-secundario;
+	text-align: center;
+	margin-top: 25%;
+}
+
+@mixin images {
+	width:100%;
+}
+
+@mixin anchura {
+	width:100%;
 }
 
 
