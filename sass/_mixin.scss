@@ -1,0 +1,51 @@
+@mixin estilos-redes {
+	font-size: $fon-size-redes;
+	width: 100%;
+	padding: $padding_redes;
+	color: $color-primario;
+}
+
+@mixin titulos {
+	font-weight: 700;
+	text-transform: uppercase;
+	color: $color-secundario;
+}
+
+@mixin iconos-redes {
+	position: relative;
+	float: right;
+	top: -2.5em;
+}
+
+@mixin iconos-fa {
+	position: relative;
+	color: $color-primario;
+	background: $color-secundario;
+	padding: 1%;
+}
+
+@mixin iconos {
+	padding: 1%;
+	background-color: $color-terciario;
+	color: $color-primario;
+}
+
+@mixin linea-roja {
+	color:$color-terciario;
+    background-color:$color-terciario;
+    height:1px;
+    border:0;
+}
+
+@mixin material-iconos {
+	position: relative;
+    float:right;
+    top: 1.4em;
+    background:$color-terciario;
+    padding: 5px;
+    color: #fff;
+    color: $color-primario;
+}
+
+
+

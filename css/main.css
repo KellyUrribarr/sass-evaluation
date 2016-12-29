@@ -6377,20 +6377,20 @@ body .fa-facebook {
   font-size: 30px;
   width: 100%;
   padding: 19px 28px;
-  background: #316db7;
-  color: #fff; }
+  color: #fff;
+  background: #316db7; }
 body .fa-twitter {
   font-size: 30px;
   width: 100%;
   padding: 19px 28px;
-  background: #17a8dd;
-  color: #fff; }
+  color: #fff;
+  background: #17a8dd; }
 body .fa-rss {
   font-size: 30px;
   width: 100%;
   padding: 19px 28px;
-  background: #ff9204;
-  color: #fff; }
+  color: #fff;
+  background: #ff9204; }
 body .iconos {
   position: relative;
   float: right;

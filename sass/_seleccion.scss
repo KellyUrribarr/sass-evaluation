@@ -1,9 +1,7 @@
 body{
     a,
     h4 {
-        font-weight: 700;
-        text-transform: uppercase;
-        color: $color-secundario;
+        @include titulos;
     }
      h6{
         font-size:$tamano-tipografia;
@@ -52,56 +50,38 @@ body{
     }
 
     .fa-facebook{
-        font-size: $fon-size-redes;
-        width: 100%;
-        padding: $padding_redes;
+        @include estilos-redes;
         background: #316db7;
-        color: $color-primario;
+    
     }
 
     .fa-twitter{
-        font-size: $fon-size-redes;
-        width: 100%;
-        padding: $padding_redes;
+        @include estilos-redes;
         background: #17a8dd;
-        color:$color-primario;
     }
 
     .fa-rss{
-        font-size: $fon-size-redes;
-        width: 100%;
-        padding: $padding_redes;
+        @include estilos-redes;
         background: #ff9204;
-        color: $color-primario;
     }
 
     .iconos{
-        position: relative;
-        float: right;
-        top: -2.5em;
+        @include iconos-redes;
 
         .fa-chevron-left,
         .fa-chevron-right {
-            position: relative;
-            color: $color-primario;
-            background: $color-secundario;
-            padding: 1%;
+            @include iconos-fa;
         }
     }
 
     .fa-minus,
     .fa-plus {
-        padding: 1%;
-        background-color: $color-terciario;
-        color: $color-primario;
+        @include iconos;
     }
 }  
 
 .linea{
-    color:$color-terciario;
-    background-color:$color-terciario;
-    height:1px;
-    border:0;
+    @include linea-roja;
 } 
 
 #logo{
@@ -109,14 +89,7 @@ body{
 }
 
 .material-icons{
-    position: relative;
-    float:right;
-    top: 1.4em;
-    background:$color-terciario;
-    padding: 5px;
-    color: #fff;
-    color: $color-primario;
-
+    @include material-iconos;
 }
 
 .espacio{
