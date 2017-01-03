@@ -6341,19 +6341,22 @@ nav .nav-wrapper {
       padding: 0px 15px;
       background: rgba(0, 0, 0, 0.6); }
 
+#ig {
+  margin-top: 15px; }
+
 body a,
 body h4 {
   font-weight: 700;
   text-transform: uppercase;
   color: #909090; }
 body h6 {
-  font-size: 1em; }
+  font-size: 0.8em; }
 body div .columnas img {
   width: 100%;
   padding-top: 8%; }
 body .titles-cuerpo {
   color: #D70202;
-  font-size: 1em; }
+  font-size: 0.8em; }
 body .font-siz {
   font-size: 13px; }
 body .fa {
